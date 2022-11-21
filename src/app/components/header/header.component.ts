@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   get cart(): Cart {
     return this._cart;
   }
+
   set cart(cart: Cart) {
     this._cart = cart;
 
